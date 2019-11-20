@@ -3,3 +3,31 @@
 /*    height: 100vh;*/
 /*    width: 100vw;*/
 /*}*/
+
+
+#buttonDesign {
+    background-color: #E6563B;
+}
+
+.customButton {
+    width: 100px;
+    height: 100px;
+    padding: 10px 16px;
+    border-radius: 65px;
+    font-size: 12px;
+    text-align: center;
+    color: white;
+}
+
+
+#buttonDevelop {
+    background-color: #DEA06C;
+}
+
+#buttonSupport {
+    background-color: #7CB06C;
+}
+
+#buttonHost {
+    background-color: #00ABA9;
+}
