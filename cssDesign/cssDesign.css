@@ -4,10 +4,12 @@
 
 .customBackground {
     background-color: #f0f0f0;
+    height: 100vh;
+    width: 100vw;
 }
 
 
-#buttonDesign {
+#buttonDesign, #iconDesign {
     background-color: #E6563B;
 }
 
@@ -23,7 +25,7 @@
 }
 
 #buttonDevelop {
-    background-color: #DEA06C;
+    background-color: #EB9D3A;
 }
 
 #buttonSupport {
@@ -33,6 +35,21 @@
 #buttonHost {
     background-color: #00ABA9;
 }
+
+.customIcon {
+    width: 18px;
+    height: 18px;
+    padding: 5px;
+    border-radius: 50%;
+    font-size: 15px;
+    text-align: center;
+    color: black;
+}
+
+
+
+
+
 
 .logo {
     border-radius: 50%;
@@ -49,3 +66,4 @@ header {
 h1, h4, .btn {
     font-family: 'Anton', sans-serif;
 }
+
