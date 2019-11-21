@@ -9,7 +9,7 @@
 }
 
 
-#buttonDesign, #iconDesign {
+#buttonDesign, .iconDesign {
     background-color: #E6563B;
 }
 
@@ -24,15 +24,15 @@
     color: white;
 }
 
-#buttonDevelop, #iconDevelop {
+#buttonDevelop, .iconDevelop {
     background-color: #EB9D3A;
 }
 
-#buttonSupport, #iconSupport {
+#buttonSupport, .iconSupport {
     background-color: #7CB06C;
 }
 
-#buttonHost, #iconHost {
+#buttonHost, .iconHost {
     background-color: #00ABA9;
 }
 
