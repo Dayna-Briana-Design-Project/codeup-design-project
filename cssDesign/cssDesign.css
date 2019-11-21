@@ -17,7 +17,7 @@
     padding: 10px 16px;
     border: white solid 5px;
     border-radius: 65px;
-    font-size: 12px;
+    font-size: 20px;
     text-align: center;
     color: white;
 }
@@ -46,6 +46,6 @@ header {
 }
 
 
-h1, h4, btn {
+h1, h4, .btn {
     font-family: 'Anton', sans-serif;
 }
