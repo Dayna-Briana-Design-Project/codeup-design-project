@@ -39,7 +39,7 @@
     height: 105px;
     width: 105px;
     z-index: 1;
-    position: relative;
+    /*position: relative;*/
 }
 header {
     height: 60px;
