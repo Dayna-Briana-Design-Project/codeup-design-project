@@ -24,32 +24,27 @@
     color: white;
 }
 
-#buttonDevelop {
+#buttonDevelop, #iconDevelop {
     background-color: #EB9D3A;
 }
 
-#buttonSupport {
+#buttonSupport, #iconSupport {
     background-color: #7CB06C;
 }
 
-#buttonHost {
+#buttonHost, #iconHost {
     background-color: #00ABA9;
 }
 
 .customIcon {
     width: 18px;
     height: 18px;
-    padding: 5px;
+    padding: 2px;
     border-radius: 50%;
-    font-size: 15px;
+    font-size: 9px;
     text-align: center;
     color: black;
 }
-
-
-
-
-
 
 .logo {
     border-radius: 50%;
