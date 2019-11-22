@@ -1,4 +1,4 @@
-#custom {
+#custom, .abelFont {
     font-family: 'Abel', sans-serif;
 }
 
@@ -8,9 +8,21 @@
     width: 100vw;
 }
 
+.twitterCard {
+    padding-left: 24px;
+}
 
-#buttonDesign, #buttonDesign2, .iconDesign {
+#buttonDesign, #buttonDesign2, .iconDesign, .lastCards {
     background-color: #E6563B;
+}
+.lastCards, .twitterCard {
+    background-color: #f0f0f0;
+    border: none;
+    padding: 1px;
+}
+
+.fa-twitter {
+    color: #43a2f4;
 }
 
 .customButton {
@@ -60,7 +72,7 @@
     border-radius: 5px;
 }
 
-#strip {
+#strip, #smallNav {
     background-color: white;
     margin: 5em;
 }
@@ -73,7 +85,7 @@ header {
 }
 
 
-h1, #correctHeading, .btn {
+h1, #correctHeading, .btn, .lastCards {
     font-family: 'Anton', sans-serif;
 }
 /*#addPadding {*/

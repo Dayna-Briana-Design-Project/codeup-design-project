@@ -9,23 +9,35 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="cssDesign/cssDesign.css">
     <link href="https://fonts.googleapis.com/css?family=Abel|Anton&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
     <title>Codeup Design</title>
 </head>
 <body class="customBackground">
+
 <!--xsmall navbar content starts here-->
-<div class="navSection">
+<div class="navSection d-block d-sm-none">
     <div class="grey-strip pt-5 pb-5">
         <div class="text-center m-0" id="strip">
             <img class="rounded-circle my-n4" src="assets/logo.png" width="105px" height="105px">
         </div>
     </div>
 </div>
-<!--xsmall navbar content ends here-->
-<!--main container starts here-->
-<div id="custom" class="col-12 customBackground m-0">
 
-    <!--small navbar starts here-->
-    <!--small navbar ends here-->
+<!--main container starts here-->
+
+<!--small navbar starts here-->
+<div class="navSection d-none d-sm-block">
+    <div class="grey-strip pt-5 pb-5">
+        <div class="text-center m-0" id="smallNav">
+            <img class="rounded-circle my-n4" src="assets/logo.png" width="105px" height="105px">
+        </div>
+    </div>
+</div>
+
+
+<!--small navbar ends here-->
+
+<div id="custom" class="col-12 customBackground m-0">
 
     <!--titles start here-->
         <div class="container text-center pt-1">
@@ -33,7 +45,7 @@
                 <div class="col-12">
                     <h2>codeup design</h2>
 
-                    <nav class="navbar navbar-light justify-content-evenly pt-3 pb-3">
+                    <nav class="navbar navbar-light justify-content-evenly pt-3 pb-3 d-block d-sm-none">
                         <a class="navbar-brand" href="#">SERVICES</a>
                         <a class="navbar-brand" href="#">WORK</a>
                         <a class="navbar-brand" href="#">BLOG</a>
@@ -46,6 +58,7 @@
             </div>
         </div>
     <!--titles end here-->
+    <!--xsmall navbar content ends here-->
 
     <!--buttons start here-->
         <div class="container m-0">
@@ -86,88 +99,259 @@
             </div>
         </div>
     <!--buttons end here-->
-
+        <hr class="d-none d-sm-block text-center" style="width: 70%;">
     <!--selected work section starts here-->
             <div class="row customBackground pt-5">
                 <div class="col-12 text-center">
                     <div>
-                        <h6>SELECTED WORK</h6>
+                        <h6 class="d-md-none">SELECTED WORK</h6>
                     </div>
     <!--project start here-->
-                <div class="projects">
-                     <div class="row">
+                    <div class="projects">
+                         <div class="row">
 
 
+                                <div class="project-images col-12 col-sm-6 d-md-none flex-sm-wrap mb-3">
+                                    <div class="imageBorder">
+                                        <img src="assets/apple-ipad.jpg" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="d-flex justify-content-between mt-2">
+                                        <h5>FEATURED PROJECT</h5>
+                                        <div>
+                                            <button type="button" class="btn btn-circle customIcon iconDesign">D</button>
+                                            <button type="button" class="btn btn-circle customIcon iconDevelop">D</button>
+                                            <button type="button" class="btn btn-circle customIcon iconSupport">S</button>
+                                            <button type="button" class="btn btn-circle customIcon iconHost">H</button>
+                                        </div>
+                                    </div>
+                                </div>
 
-                        <div class="project-images col-12 col-sm-6 flex-sm-wrap mb-3">
-                            <div class="imageBorder">
-                                <img src="assets/apple-ipad.jpg" class="img-fluid" alt="">
-                            </div>
-                            <div class="d-flex justify-content-between mt-2">
-                                <h5>FEATURED PROJECT</h5>
-                                <div>
-                                    <button type="button" class="btn btn-circle customIcon iconDesign">D</button>
-                                    <button type="button" class="btn btn-circle customIcon iconDevelop">D</button>
-                                    <button type="button" class="btn btn-circle customIcon iconSupport">S</button>
-                                    <button type="button" class="btn btn-circle customIcon iconHost">H</button>
+                                <div class="project-images d-none d-sm-block col-sm-6 d-md-none flex-sm-wrap mb-3">
+                                    <div class="imageBorder">
+                                        <img src="assets/images/macbook.jpg" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="d-flex justify-content-between mt-2">
+                                        <h5>FEATURED PROJECT</h5>
+                                        <div>
+                                            <button type="button" class="btn btn-circle customIcon iconDesign">D</button>
+                                            <button type="button" class="btn btn-circle customIcon iconDevelop">D</button>
+                                            <button type="button" class="btn btn-circle customIcon iconSupport">S</button>
+                                            <button type="button" class="btn btn-circle customIcon iconHost">H</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="project-images d-none d-sm-block col-sm-6 d-md-none flex-sm-wrap mb-3">
+                                    <div class="imageBorder">
+                                        <img src="assets/images/man.jpg" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="d-flex justify-content-between mt-2">
+                                        <h5>FEATURED PROJECT</h5>
+                                        <div>
+                                            <button type="button" class="btn btn-circle customIcon iconDesign">D</button>
+                                            <button type="button" class="btn btn-circle customIcon iconDevelop">D</button>
+                                            <button type="button" class="btn btn-circle customIcon iconSupport">S</button>
+                                            <button type="button" class="btn btn-circle customIcon iconHost">H</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="project-images d-none d-sm-block col-sm-6 d-md-none flex-sm-wrap mb-3">
+                                    <div class="imageBorder">
+                                        <img src="assets/images/security.jpg" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="d-flex justify-content-between mt-2">
+                                        <h5>FEATURED PROJECT</h5>
+                                        <div>
+                                            <button type="button" class="btn btn-circle customIcon iconDesign">D</button>
+                                            <button type="button" class="btn btn-circle customIcon iconDevelop">D</button>
+                                            <button type="button" class="btn btn-circle customIcon iconSupport">S</button>
+                                            <button type="button" class="btn btn-circle customIcon iconHost">H</button>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-
-                        <div class="project-images d-none d-sm-block col-sm-6 flex-sm-wrap mb-3">
-                            <div class="imageBorder">
-                                <img src="assets/images/macbook.jpg" class="img-fluid" alt="">
-                            </div>
-                            <div class="d-flex justify-content-between mt-2">
-                                <h5>FEATURED PROJECT</h5>
-                                <div>
-                                    <button type="button" class="btn btn-circle customIcon iconDesign">D</button>
-                                    <button type="button" class="btn btn-circle customIcon iconDevelop">D</button>
-                                    <button type="button" class="btn btn-circle customIcon iconSupport">S</button>
-                                    <button type="button" class="btn btn-circle customIcon iconHost">H</button>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="project-images d-none d-sm-block col-sm-6 flex-sm-wrap mb-3">
-                            <div class="imageBorder">
-                                <img src="assets/images/man.jpg" class="img-fluid" alt="">
-                            </div>
-                            <div class="d-flex justify-content-between mt-2">
-                                <h5>FEATURED PROJECT</h5>
-                                <div>
-                                    <button type="button" class="btn btn-circle customIcon iconDesign">D</button>
-                                    <button type="button" class="btn btn-circle customIcon iconDevelop">D</button>
-                                    <button type="button" class="btn btn-circle customIcon iconSupport">S</button>
-                                    <button type="button" class="btn btn-circle customIcon iconHost">H</button>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="project-images d-none d-sm-block col-sm-6 flex-sm-wrap mb-3">
-                            <div class="imageBorder">
-                                <img src="assets/images/security.jpg" class="img-fluid" alt="">
-                            </div>
-                            <div class="d-flex justify-content-between mt-2">
-                                <h5>FEATURED PROJECT</h5>
-                                <div>
-                                    <button type="button" class="btn btn-circle customIcon iconDesign">D</button>
-                                    <button type="button" class="btn btn-circle customIcon iconDevelop">D</button>
-                                    <button type="button" class="btn btn-circle customIcon iconSupport">S</button>
-                                    <button type="button" class="btn btn-circle customIcon iconHost">H</button>
-                                </div>
-                            </div>
-                        </div>
-
-                     </div>
-                </div>
-    <!--project end here-->
-
-
+                         </div>
+                    </div>
                 </div>
             </div>
-    <!--selected work section ends here-->
+    <!--project small end here-->
 
+
+
+    <!--project medium starts here-->
+
+<div class="row abelFont">
+
+    <!--            left content start-->
+    <div class="d-none d-sm-none d-md-block col-md-8 selected-work" id="left-column">
+        <p>SELECTED WORK</p>
+
+            <div class="projects">
+                <div class="row">
+
+
+                    <div class="project-images d-none d-sm-none d-md-block col-md-6 flex-md-wrap mb-3">
+                        <div class="imageBorder">
+                            <img src="assets/apple-ipad.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="d-flex justify-content-between mt-2">
+                            <h5>FEATURED PROJECT</h5>
+                            <div>
+                                <button type="button" class="btn btn-circle customIcon iconDesign">D</button>
+                                <button type="button" class="btn btn-circle customIcon iconDevelop">D</button>
+                                <button type="button" class="btn btn-circle customIcon iconSupport">S</button>
+                                <button type="button" class="btn btn-circle customIcon iconHost">H</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-images d-none d-sm-none d-md-block col-md-6 flex-md-wrap mb-3">
+                        <div class="imageBorder">
+                            <img src="assets/images/macbook.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="d-flex justify-content-between mt-2">
+                            <h5>FEATURED PROJECT</h5>
+                            <div>
+                                <button type="button" class="btn btn-circle customIcon iconDesign">D</button>
+                                <button type="button" class="btn btn-circle customIcon iconDevelop">D</button>
+                                <button type="button" class="btn btn-circle customIcon iconSupport">S</button>
+                                <button type="button" class="btn btn-circle customIcon iconHost">H</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-images d-none d-sm-none d-md-block col-md-6 flex-md-wrap mb-3">
+                        <div class="imageBorder">
+                            <img src="assets/images/man.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="d-flex justify-content-between mt-2">
+                            <h5>FEATURED PROJECT</h5>
+                            <div>
+                                <button type="button" class="btn btn-circle customIcon iconDesign">D</button>
+                                <button type="button" class="btn btn-circle customIcon iconDevelop">D</button>
+                                <button type="button" class="btn btn-circle customIcon iconSupport">S</button>
+                                <button type="button" class="btn btn-circle customIcon iconHost">H</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-images d-none d-sm-none d-md-block col-md-6 flex-md-wrap mb-3">
+                        <div class="imageBorder">
+                            <img src="assets/images/security.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="d-flex justify-content-between mt-2">
+                            <h5>FEATURED PROJECT</h5>
+                            <div>
+                                <button type="button" class="btn btn-circle customIcon iconDesign">D</button>
+                                <button type="button" class="btn btn-circle customIcon iconDevelop">D</button>
+                                <button type="button" class="btn btn-circle customIcon iconSupport">S</button>
+                                <button type="button" class="btn btn-circle customIcon iconHost">H</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+
+    <!--            left content end-->
+
+
+    <!--            right content start-->
+    <div class="d-none d-sm-none d-md-block col-md-4" id="right-column">
+        <p>THE LAST</p>
+
+        <div class="projects">
+            <div class="row">
+
+                <div class="card col-md-12 mb-3 lastCards">
+                    <div class="row no-gutters">
+                        <div class="col-md-4 text-center">
+                            <img src="assets/images/mobile-phone.jpg" class="card-img" style="height: 48px; width: 48px;" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body p-0">
+                                <h5 class="card-title mb-0">THE ADMIN BAR AND <br> ABSOLUTE POSITIONING</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card col-md-12 mb-3 lastCards">
+                    <div class="row no-gutters">
+                        <div class="col-md-4 text-center">
+                            <img src="assets/images/head.jpg" class="card-img" style="height: 48px; width: 48px;" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body p-0">
+                                <h5 class="card-title">NIBBLER AWESOME <br> WEBSITE TESTING</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card col-md-12 mb-3 lastCards">
+                    <div class="row no-gutters">
+                        <div class="col-md-4 text-center">
+                            <img src="assets/images/ipad.jpg" class="card-img" style="height: 48px; width: 48px;" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body p-0">
+                                <h5 class="card-title">HOW TO GET GOOGLE TO <br> LIKE YOU</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card col-md-12 twitterCard">
+                    <div class="card-body">
+                        <h5 class="card-title"><i class="fab fa-twitter"></i> LAST TWEET</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias architecto asperiores, consectetur consequatur debitis distinctio exercitationem ipsum, itaque quae sapiente vero?</p>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <!--            right content end-->
+</div>
+    <!--        content end-->
+
+
+
+
+
+
+
+
+    <!--project medium ends here-->
+
+
+
+
+
+<!--    the last section starts here-->
+
+
+
+<!--the last section starts here-->
 
 <!--    </div>-->
 </div>
