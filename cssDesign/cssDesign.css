@@ -53,12 +53,28 @@
     z-index: 1;
     /*position: relative;*/
 }
+
+.imageBorder {
+    border: 7px solid;
+    border-color: #e6e6e6;
+    border-radius: 5px;
+}
+
+#strip {
+    background-color: white;
+    margin: 5em;
+}
+.navSection {
+    background-color: #f0f0f0;
+}
+
 header {
     height: 60px;
 }
 
 
-h1, h4, .btn {
+h1, #correctHeading, .btn {
     font-family: 'Anton', sans-serif;
 }
+
 
