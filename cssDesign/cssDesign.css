@@ -76,5 +76,8 @@ header {
 h1, #correctHeading, .btn {
     font-family: 'Anton', sans-serif;
 }
-
+/*#addPadding {*/
+/*    padding-top: 10px;*/
+/*    padding-bottom: 10px;*/
+/*}*/
 
