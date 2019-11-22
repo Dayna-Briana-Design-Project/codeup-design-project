@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css?family=Abel|Anton&display=swap" rel="stylesheet">
     <title>Codeup Design</title>
 </head>
-<body>
+<body class="customBackground">
 <!--xsmall navbar content starts here-->
 <div class="navSection">
     <div class="grey-strip pt-5 pb-5">
@@ -48,22 +48,41 @@
     <!--titles end here-->
 
     <!--buttons start here-->
-        <div class="container">
+        <div class="container m-0">
             <div class="row">
-<!--                <div class="card shadow p-3 mb-5 bg-white rounded">-->
-                    <div class="embed-responsive pt-0">
-                        <div class="button1 text-center">
-                            <button type="button" class="btn btn-circle customButton" id="buttonDesign">DESIGN</button>
+                <div class="col-sm-3">
+                    <button type="button" class="btn btn-circle customButton text-center d-none d-sm-block" id="buttonDesign2">DESIGN</button>
+                </div>
+                <div class="col-sm-3">
+                            <button type="button" class="btn btn-circle customButton text-center d-none d-sm-block" id="buttonDevelop2">DEVELOP</button>
+                </div>
+                <div class="col-sm-3">
+                            <button type="button" class="btn btn-circle customButton text-center d-none d-sm-block" id="buttonSupport2">SUPPORT</button>
+                </div>
+                <div class="col-sm-3">
+                            <button type="button" class="btn btn-circle customButton text-center d-none d-sm-block" id="buttonHost2">HOST</button>
+                </div>
 
-                            <button type="button" class="btn btn-circle customButton" id="buttonDevelop">DEVELOP</button>
-                        </div>
-                        <div class="button2 text-center pb-5">
-                            <button type="button" class="btn btn-circle customButton" id="buttonSupport">SUPPORT</button>
+<!--                <div class="col">-->
+<!--                    <hr class="d-none d-sm-block">-->
+<!--                </div>-->
 
-                            <button type="button" class="btn btn-circle customButton" id="buttonHost">HOST</button>
-                        </div>
-                    </div>
-<!--                </div>        -->
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <button type="button" class="btn btn-circle customButton text-center d-block d-sm-none mr-0" id="buttonDesign">DESIGN</button>
+                </div>
+                <div class="col-6">
+                    <button type="button" class="btn btn-circle customButton text-center d-block d-sm-none" id="buttonDevelop">DEVELOP</button>
+                </div>
+            </div>
+                <div class="row">
+                <div class="col-6">
+                    <button type="button" class="btn btn-circle customButton text-center d-block d-sm-none mr-0" id="buttonSupport">SUPPORT</button>
+                </div>
+                <div class="col-6">
+                    <button type="button" class="btn btn-circle customButton text-center d-block d-sm-none" id="buttonHost">HOST</button>
+                </div>
             </div>
         </div>
     <!--buttons end here-->
@@ -76,29 +95,11 @@
                     </div>
     <!--project start here-->
                 <div class="projects">
-                     <div class="row d-flex">
-
-<!--                         <div class="card" style="width: 18rem;">-->
-<!--                             <img src=src="assets/apple-ipad.jpg" class="card-img-top" alt="...">-->
-<!--                             <div class="card-body">-->
-<!--                                 <p class="card-text">-->
-<!--                                     <div class="d-flex justify-content-between">-->
-<!--                                         <h5>FEATURED PROJECT</h5>-->
-<!--                                         <div>-->
-<!--                                             <button type="button" class="btn btn-circle customIcon iconDesign">D</button>-->
-<!--                                             <button type="button" class="btn btn-circle customIcon iconDevelop">D</button>-->
-<!--                                             <button type="button" class="btn btn-circle customIcon iconSupport">S</button>-->
-<!--                                             <button type="button" class="btn btn-circle customIcon iconHost">H</button>-->
-<!--                                         </div>-->
-<!--                                     </div>-->
-<!--                                 </p>-->
-<!--                             </div>-->
-<!--                         </div>-->
+                     <div class="row">
 
 
 
-
-                        <div class="project-images col-12 col-sm-6 flex-sm-wrap mb-3 mt-3">
+                        <div class="project-images col-12 col-sm-6 flex-sm-wrap mb-3">
                             <div class="imageBorder">
                                 <img src="assets/apple-ipad.jpg" class="img-fluid" alt="">
                             </div>
